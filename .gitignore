@@ -1,5 +1,6 @@
 # vscode plugins
 .history
+/tmp
 
 # Logs
 logs
