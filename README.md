@@ -14,6 +14,14 @@ Additionally you __SHOULD__ install for a better overall experience:
 * Docker Compose
 * [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
 
+## Structure
+
+This repo is a monorepo managed by Yarn Workspaces. There are 3 main folders:
+
+* Web: React with Typescript to implement a lightweight frontend;
+* Serverless: Lambda functions that implement the main interface for our services;
+* Shared: Reusable code between web and serverless;
+
 ## Navigation
 
 There are multiple tags in this repository between points of interest during the lecture.

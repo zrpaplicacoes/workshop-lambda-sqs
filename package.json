@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "workspaces": [
+    "shared",
+    "web",
+    "serverless"
+  ],
+  "devDependencies": {
+    "tsdx": "^0.14.1"
+  }
+}
