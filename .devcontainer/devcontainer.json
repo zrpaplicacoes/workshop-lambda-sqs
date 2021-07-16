@@ -66,8 +66,8 @@
     "target=/workspace/tmp,type=tmpfs",
   ],
   "containerEnv": {
-    "AWS_ACCESS_KEY_ID": "",
-    "AWS_SECRET_ACCESS_KEY": "",
+    "AWS_ACCESS_KEY_ID": "AKIAU5CYID6ZHIOOOJZ2",
+    "AWS_SECRET_ACCESS_KEY": "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",
     "AWS_REGION": "us-east-1"
   },
   "postCreateCommand": "sudo chown -R node ${containerWorkspaceFolder}",
