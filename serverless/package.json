@@ -1,0 +1,13 @@
+{
+  "name": "@workshop/serverless",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Pedro Gryzinsky <p@zrp.com.br>",
+  "license": "UNLICENSED",
+  "dependencies": {},
+  "devDependencies": {
+    "serverless": "^2.52.0",
+    "serverless-offline": "^7.0.0",
+    "serverless-plugin-monorepo": "^0.10.0"
+  }
+}

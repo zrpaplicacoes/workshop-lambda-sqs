@@ -56,7 +56,8 @@
   "workspaceFolder": "/workspace",
   "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
   "mounts": [
-    "source=zrp-workshop-sqs-lambda,target=/history,type=volume",
+    "source=zrp-workshop-sqs-lambda-history,target=/history,type=volume",
+    "source=zrp-workshop-sqs-lambda-node-modules,target=/workspace/node_modules,type=volume",
     "source=${localEnv:HOME}${localEnv:USERPROFILE}\\.ssh,target=/home/node/.ssh,type=bind,readonly",
     "source=${localEnv:HOME}${localEnv:USERPROFILE}\\.ssh,target=/root/.ssh,type=bind,readonly",
     "source=${localEnv:HOME}${localEnv:USERPROFILE}\\.aws,target=/home/node/.aws,type=bind,readonly",

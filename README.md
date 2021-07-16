@@ -18,9 +18,9 @@ Additionally you __SHOULD__ install for a better overall experience:
 
 This repo is a monorepo managed by Yarn Workspaces. There are 3 main folders:
 
-* Web: React with Typescript to implement a lightweight frontend;
-* Serverless: Lambda functions that implement the main interface for our services;
-* Shared: Reusable code between web and serverless;
+* Web: React with Typescript to implement a lightweight frontend (@workshop/web);
+* Serverless: Lambda functions that implement the main interface for our services (@workshop/serverless);
+* Shared: Reusable code between web and serverless (@workshop/shared);
 
 ## Navigation
 
@@ -31,4 +31,4 @@ The tags available are:
 
 * initial-setup: Repository created, without any folders;
 * commitizen: A friendly reminder to commit correctly;
-* ...
+* monorepo: Creates every monorepo package;
